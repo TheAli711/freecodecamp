@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(98, 61, 144);
+  color: white;
+  font-size: 17px;
+}
+
+.survey-form {
+  background-color: rgb(51, 33, 75);
+  border-radius: 3%;
+  text-align: left;
+  max-width: 50%;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  text-decoration-style: solid;
+}
+
+label {
+  margin: auto;
+  margin-left: 15px;
+}
+
+input {
+  border-radius: 8%;
+  margin-left: 15px;
+}
+select {
+  margin-left: 15px;
+}
+
+textarea {
+  margin-left: 15px;
+  border-radius: 3%;
+}

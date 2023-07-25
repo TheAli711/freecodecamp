@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+
+    <div id="heading" class="heading">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform
+        </p>
+    </div>
+    <form id="survey-form" action="" class="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" required placeholder="Enter your name">
+        <br>
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" required placeholder="Enter your email">
+        <br>
+        <label for="number" id="number-label">Age (Optional)</label><br>
+        <input type="number" id="number" min="15" max="100" placeholder="Enter your age">
+        <hr>
+        <label for="role">Which option best describes your current role?</label><br>
+        <select id="dropdown" name="role">
+            <option value="scr">Select current role</option>
+            <option value="student">Student</option>
+            <option value="ftj">Full Time Job</option>
+            <option value="ftl">Full Time Learner</option>
+            <option value="pnts">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+        <hr>
+        <label>Would you recommend freecodecamp to a friend?</label><br>
+        <input type="radio" name="recommend" id="yes" value="yes">
+        <label for="yes">Definitely</label><br>
+        <input type="radio" name="recommend" id="no" value="no">
+        <label for="no">NO</label><br>
+        <input type="radio" name="recommend" id="idk" value="idk">
+        <label for="idk">Maybe</label><br>
+        <hr>
+        <label>What would you like to see improved? (Check all that apply)</label><br>
+
+        <input type="checkbox" name="feautures" id="fep" value="fep">
+        <label for="fep">Front-end Projects</label><br>
+
+        <input type="checkbox" name="feautures" id="bep" value="bep">
+        <label for="bep">Back-end Projects</label><br>
+
+        <input type="checkbox" name="feautures" id="dv" value="dv">
+        <label for="dv">Data Visualization</label><br>
+
+        <input type="checkbox" name="feautures" id="cha" value="cha">
+        <label for="cha">Challenges</label><br>
+
+        <input type="checkbox" name="feautures" id="osc" value="osc">
+        <label for="osc">Open Source Comminuty</label><br>
+
+        <input type="checkbox" name="feautures" id="ghr" value="ghr">
+        <label for="ghr">Gritter Help Rooms</label><br>
+
+        <input type="checkbox" name="feautures" id="cm" value="cm">
+        <label for="cm">City Meetups</label><br>
+
+        <input type="checkbox" name="feautures" id="ac" value="ac">
+        <label for="ac">Additional Courses</label><br>
+
+        <hr>
+
+        <label for="textarea">Any suggestions or comments</label> <br>
+        <textarea name="suggestions" id="textarea" cols="50" rows="5"></textarea>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
