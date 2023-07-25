@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 18px;
+  padding-left: 18px;
+}
+
+#main-doc {
+  /* margin-top: 45px; */
+  margin-left: 250px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+code {
+  background: #eee;
+  padding: 1.5rem;
+  border-radius: 10px;
+  line-height: 2;
+  display: block;
+  border: 1px solid #aaa;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: 225px;
+    }
+}
